@@ -379,7 +379,7 @@ img {
 
     background: 
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url('/img/hero-bg.png') center/cover;
+        url('./img/hero-bg.png') center/cover;
 
 
 }
@@ -568,7 +568,7 @@ img {
 
     background: 
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url('/img/checkup.png') center/cover;
+        url('./img/checkup.png') center/cover;
 }
 
 
@@ -627,7 +627,7 @@ img {
     height: 100%;
     background: 
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url('/img/reports_bg.png') center/cover;
+        url('./img/reports_bg.png') center/cover;
     z-index: -1;
 }
 
@@ -978,7 +978,7 @@ img {
     width: 25px;
     height: 25px;
 
-    background-image: url("/img/ic_check-circle-light.svg");
+    background-image: url("./img/ic_check-circle-light.svg");
     background-size: cover;
     background-repeat: no-repeat;
 }
