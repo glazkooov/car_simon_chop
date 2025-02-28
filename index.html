@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+
+    <title>Simon Car Chop</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header_row">
+                    <div class="header_logo">
+                        <a href="/"><img src="/img/logo.svg" alt="logo"></a>
+                    </div>
+
+                    <nav class="header_nav">
+                        <ul class="header_nav-list">
+                            <li class="header_nav-list-item"><a href="#">Полная проверка</a></li>
+                            <li class="header_nav-list-item"><a href="#">Услуги</a></li>
+                            <li class="header_nav-list-item"><a href="#">Отзывы</a></li>
+                            <li class="header_nav-list-item"><a href="#">Контакты</a></li>
+                        </ul>
+                        
+                        <a href="tel:+79001305000" class="header_phone">8(900)-130-5000</a>
+                    </nav>
+
+                    <div class="burger">
+                      <div class="burger-line"></div>
+                      <div class="burger-line"></div>
+                      <div class="burger-line"></div>
+                    </div>
+                 
+                  
+                  <div class="mobile-menu">
+                      <nav class="nav-mobile">
+                          <div class="nav-mobile-list">
+                              <a href="#">Product</a>
+                              <a href="#">Customers</a>
+                              <a href="#">Pricing</a>
+                              <a href="#">Resources</a>
+                          </div>
+                          <div class="nav-mobile_auth">
+                              <a href="#" class="nav_button-mobile sign-in">Sign in</a>
+                              <a href="#" class="nav_button-mobile sign-up">Sign up</a>
+                          </div>
+                          
+                      </nav>
+                  </div>
+
+                </div>
+            </div>
+        </header>
+
+
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-column">
+                        <div class="hero-content">
+                            <p class="hero-country">Беларусь и Россия</p>
+                            <h1 class="hero-title">Услуги автоподбора, помощь<br>в покупке и осмотре автомобиля</h1>
+                            <button class="cta-button">Оставить заявку</button>
+                        </div>
+
+                    </div>
+                    <div class="hero-advantages">
+                      <div class="advantage-card">
+                          <div class="advantage-number">01</div>
+                          <p class="advantage-text">Профессиональный осмотр автомобиля с использованием необходимого оборудования.</p>
+                      </div>
+
+                      <div class="advantage-card">
+                          <div class="advantage-number">02</div>
+                          <p class="advantage-text">Персональный подход к каждому клиенту.</p>
+                      </div>
+
+                      <div class="advantage-card">
+                          <div class="advantage-number">03</div>
+                          <p class="advantage-text">Полный отчёт о проделанной работе с фото/видео фиксацией.</p>
+                      </div>
+
+                      <div class="advantage-card">
+                          <div class="advantage-number">04</div>
+                          <p class="advantage-text">Гибкие цены, короткие сроки выполнения работ.</p>
+                      </div>
+                  </div>
+
+                  <div class="swiper hero_swiper">
+                    <div class="swiper-wrapper hero_swiper-wrapper">
+                      <div class="swiper-slide hero_swiper-slide">
+                        <div class="advantage-card">
+                            <div class="advantage-number">01</div>
+                            <p class="advantage-text">Профессиональный осмотр автомобиля с использованием необходимого оборудования.</p>
+                        </div>
+                      </div>
+  
+                      <div class="swiper-slide hero_swiper-slide">
+                        <div class="advantage-card">
+                            <div class="advantage-number">02</div>
+                            <p class="advantage-text">Персональный подход к каждому клиенту.</p>
+                        </div>
+                      </div>
+  
+                      <div class="swiper-slide hero_swiper-slide">
+                        <div class="advantage-card">
+                            <div class="advantage-number">03</div>
+                            <p class="advantage-text">Полный отчёт о проделанной работе с фото/видео фиксацией.</p>
+                        </div>
+                      </div>
+  
+                      <div class="swiper-slide hero_swiper-slide">
+                        <div class="advantage-card">
+                            <div class="advantage-number">04</div>
+                            <p class="advantage-text">Гибкие цены, короткие сроки выполнения работ.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                </div>
+                
+                
+                <div class="modal_overlay">
+                  <div class="modal">
+                    <img src="/img/ic_close.svg" alt="">
+                    <div class="modal_content">
+                      <h3 class="modal_title">Заказать звонок</h3>
+                      <p class="modal_text">Узнайте какой автомобиль мы сможем
+                        подобрать под ваш бюджет</p>
+                    </div>
+                      <div class="base-form modal_form">
+                        <form>
+                            <input type="text" placeholder="Имя" required>
+                            <input type="tel" placeholder="Телефон" required>
+                            <button type="submit" class="cta-button">Оставить заявку</button>
+                        </form>
+                        <span>Нажимая на кнопку вы соглашаетесь с <u>Политикой конфидециальности</u></span>
+                    </div>
+                  </div>
+                </div>
+                
+            </section>
+
+            <section class="checkup">
+                <div class="container">
+                    <div class="section_header checkup_header">
+                        <h2 class="title checkup_title">Проведем полную проверку автомобиля</h2>
+                        <div class="section_header-line"></div>
+                    </div>
+                    <div class="section-text">
+                       <p>
+                            Мы сортируем объявления и убираем неподходящие. 
+                            Затем связываемся с продавцом и договариваемся о встрече, на которой диагностируем автомобиль по 100 параметрам. 
+                            В результате диагностики не остается ничего, что бы продавец мог скрыть.
+                       </p>
+                    </div>
+                    <div class="checkup_row">
+                        <div class="accordion_items">
+                            <div class="accordion_item active">
+                                <button class="accordion_item-header">
+                                    <img src="/img/icon_salon.svg" alt="" class="checkup_header-icon"> 
+                                    <span class="subtitle checkup_subtitle">Состояние салона</span>
+                                </button>
+                                <div class="accordion_item-content">
+                                    <p>По состоянию салона можно определить отношение человека к автомобилю. 
+                                        Также, не скрыть и использование автомобиля в такси.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion_item">
+                                <button class="accordion_item-header">
+                                    <img src="/img/иконка Ходовая часть.svg" alt="" class="checkup_header-icon"> 
+                                    <span class="subtitle checkup_subtitle">Ходовая часть</span>
+                                </button>
+                                <div class="accordion_item-content">
+                                    <p>Это один из самых важных элементов подвески. 
+                                        Он напрямую влияют на управляемость автомобиля, на его устойчивость и плавность хода.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion_item">
+                                <button class="accordion_item-header">
+                                    <img src="/img/иконка Тормозная система.svg" alt="" class="checkup_header-icon"> 
+                                    <span class="subtitle checkup_subtitle">Тормозная система</span>
+                                </button>
+                                <div class="accordion_item-content">
+                                    <p>Проверяем состояние тормозных механизмов, дисков, колодок, антиблокировочной, антипробуксовочной систем и антизаноса.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion_item">
+                                <button class="accordion_item-header">
+                                    <img src="/img/иконка Кузов.svg" alt="" class="checkup_header-icon"> 
+                                    <span class="subtitle checkup_subtitle">Кузов</span>
+                                </button>
+                                <div class="accordion_item-content">
+                                    <p>Проверка кузова на предмет перекраса, ремонта, снятия-установки элементов.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion_item">
+                                <button class="accordion_item-header">
+                                    <img src="/img/иконка КПП.svg" alt="" class="checkup_header-icon"> 
+                                    <span class="subtitle checkup_subtitle">КПП</span>
+                                </button>
+                                <div class="accordion_item-content">
+                                    <p>Собственный алгоритм проверки АКПП. Проверка уровня жидкости и компьютерная диагностика.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion_item">
+                                <button class="accordion_item-header">
+                                    <img src="/img/иконка Колеса.svg" alt="" class="checkup_header-icon"> 
+                                    <span class="subtitle checkup_subtitle">Колеса</span>
+                                </button>
+                                <div class="accordion_item-content">
+                                    <p>Равномерность износа, дата производства, состояние и марка шин - важный момент при покупке автомобиля.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion_item">
+                                <button class="accordion_item-header">
+                                    <img src="/img/иконка Приборы.svg" alt="" class="checkup_header-icon"> 
+                                    <span class="subtitle checkup_subtitle">Приборы</span>
+                                </button>
+                                <div class="accordion_item-content">
+                                    <p>Проверка правильной работы бортового компьютера и его показаний.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion_item">
+                                <button class="accordion_item-header">
+                                    <img src="/img/иконка Управление автомобилем.svg" alt="" class="checkup_header-icon"> 
+                                    <span class="subtitle checkup_subtitle">Управление автомобилем</span>
+                                </button>
+                                <div class="accordion_item-content">
+                                    <p>Наличие люфтов, течей, стуков в рулевом управлении. 
+                                        Уровень рабочей жидкости, состояние рулевой рейки и работоспособность усилителя руля.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion_item">
+                                <button class="accordion_item-header">
+                                    <img src="/img/иконка двигатель.svg" alt="" class="checkup_header-icon"> 
+                                    <span class="subtitle checkup_subtitle">Двигатель</span>
+                                </button>
+                                <div class="accordion_item-content">
+                                    <p>Проводим комплексную проверку двигателя. 
+                                        Проверяем отклик и корректность со всех датчиков, ряд механических проверок.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="checkup_image-wrapper"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="doc">
+                <div class="container">
+                    <div class="section_header doc_header">
+                        <h2 class="title doc_title">Проверка документов, участие в ДТП, число владельцев</h2>
+                        <div class="section_header-line"></div>
+                    </div>
+
+                    <div class="section-text">
+                        <p>
+                             И много другое мы узнаем из открытых и закрытых источников. 
+                             Вы точно будете уверены, что автомобиль не находится в угоне, залоге или использовался «на убой» в такси.
+                        </p>
+                     </div>
+                     <div class="doc_row">
+                            <div class="doc_item">
+                                <div class="doc_item-header">
+                                    <span class="subtitle doc_subtitle">Закрытые базы</span>
+                                </div>
+
+                            </div>
+                            <div class="doc_item">
+                                <div class="doc_item-header">
+                                    <span class="subtitle doc_subtitle">Базы ГИБДД</span>
+                                    <span class="doc_note">*только для России</span>
+                                </div>
+
+                            </div>
+                            <div class="doc_item">
+                                <div class="doc_item-header">
+                                    <span class="subtitle doc_subtitle">Банки</span>
+                                </div>
+                            </div>
+
+                            <div class="doc_item">
+                                <div class="doc_item-header">
+                                    <span class="subtitle doc_subtitle">Приставы</span>
+                                </div>
+
+                            </div>
+                            
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="reports">
+                <div class="container">
+                    <div class="reports_column">
+                        <div class="reports_content">
+                            <h3 class="reports_title">Регулярные отчеты Вам на телефон</h3>
+                            <p class="reports_text">Мы делаем не просто фото с текстовым отчетом проверяемого автомобиля, 
+                                а фиксируем все нюансы, вплоть до не работающего подогрева сидений.</p>
+                            <div class="reports_contacts">
+                                <div class="reports_social">
+                                    <img src="/img/Telegram_ic.svg" alt="Telegram">
+                                    <img src="/img/Instagram_ic.svg" alt="Instagram">
+                                    <img src="/img/Viber_ic.svg" alt="Viber">
+                                    <img src="/img/Watsapp_ic.svg" alt="WhatsApp">
+                                    <img src="/img/Vk_ic.svg" alt="Вконтакте">
+                                </div>
+                                
+                                <button class="cta-button">Оставить заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="reviews">
+                <div class="container">
+                  <div class="section_header reviews_header">
+                    <h2 class="title reviews_title">
+                      Наши клиенты остались довольны<br>подобранными автомобилями
+                    </h2>
+                    <div class="section_header-line"></div>
+                  </div>
+              
+                  <div class="swiper reviews-swiper">
+                    <div class="swiper-wrapper">
+                      <!-- Слайд 1 -->
+                      <div class="swiper-slide">
+                        <div class="review-card">
+                          <span class="review-card-num">01</span>
+                          <div class="review_row">
+                            <img src="/img/review1.png" alt="Автомобиль">
+                            <div class="review_content">
+                              <div class="review_header">
+                                <div class="review_header-title">Mercedes W221 S-class</div>
+                                <div class="review_header_subtitle">для Владислава</div>
+                              </div>
+                              <div class="review_text">
+                                <div class="review_grade">
+                                  <div class="review_advantages">
+                                    <span>Плюсы:</span>
+                                    <ul class="review_advantages-list">
+                                      <li class="review_advantages-list-item">– Максимальная комплектация</li>
+                                      <li class="review_advantages-list-item">– Чистая история</li>
+                                      <li class="review_advantages-list-item">– Реальный пробег</li>
+                                      <li class="review_advantages-list-item">– Ровный по кузов</li>
+                                      <li class="review_advantages-list-item">– Электронно чист</li>
+                                    </ul>
+                                  </div>
+                                  <div class="review_advantages">
+                                    <span>Минусы:</span>
+                                    <ul class="review_advantages-list">
+                                      <li class="review_advantages-list-item">– Мёртвый задний Аккум</li>
+                                      <li class="review_advantages-list-item">– Несколько кнопок в салоне</li>
+                                      <li class="review_advantages-list-item">– Сопливит прокладка маслоохладителя</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="review_comment">
+                                  Подбор занял 4 дня, осмотрено 2 автомобиля в Смоленске и 5 в Москве. 
+                                  С нынешним рынком, цены на авто очень сильно «прыгают», поэтому Вы можете поехать 
+                                  покупать авто за 1 миллион, а его состояние будет, как у авто за 700 тысяч! И поверьте, 
+                                  так оно и есть зачастую. Влад подтвердит каждое мое слово, так как видел все это на практике. 
+                                  К слову, подобранный Мерседес максимально вписался в запрос клиента! Изначально цена на данный 
+                                  аппарат была 950К.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="review-card">
+                          <span class="review-card-num">02</span>
+                          <div class="review_row">
+                            <img src="/img/review1.png" alt="Автомобиль">
+                            <div class="review_content">
+                              <div class="review_header">
+                                <div class="review_header-title">Mercedes W221 S-class</div>
+                                <div class="review_header_subtitle">для Владислава</div>
+                              </div>
+                              <div class="review_text">
+                                <div class="review_grade">
+                                  <div class="review_advantages">
+                                    <span>Плюсы:</span>
+                                    <ul class="review_advantages-list">
+                                      <li class="review_advantages-list-item">– Максимальная комплектация</li>
+                                      <li class="review_advantages-list-item">– Чистая история</li>
+                                      <li class="review_advantages-list-item">– Реальный пробег</li>
+                                      <li class="review_advantages-list-item">– Ровный по кузов</li>
+                                      <li class="review_advantages-list-item">– Электронно чист</li>
+                                    </ul>
+                                  </div>
+                                  <div class="review_advantages">
+                                    <span>Минусы:</span>
+                                    <ul class="review_advantages-list">
+                                      <li class="review_advantages-list-item">– Мёртвый задний Аккум</li>
+                                      <li class="review_advantages-list-item">– Несколько кнопок в салоне</li>
+                                      <li class="review_advantages-list-item">– Сопливит прокладка маслоохладителя</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="review_comment">
+                                  Подбор занял 4 дня, осмотрено 2 автомобиля в Смоленске и 5 в Москве. 
+                                  С нынешним рынком, цены на авто очень сильно «прыгают», поэтому Вы можете поехать 
+                                  покупать авто за 1 миллион, а его состояние будет, как у авто за 700 тысяч! И поверьте, 
+                                  так оно и есть зачастую. Влад подтвердит каждое мое слово, так как видел все это на практике. 
+                                  К слову, подобранный Мерседес максимально вписался в запрос клиента! Изначально цена на данный 
+                                  аппарат была 950К.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="review-card">
+                          <span class="review-card-num">03</span>
+                          <div class="review_row">
+                            <img src="/img/review1.png" alt="Автомобиль">
+                            <div class="review_content">
+                              <div class="review_header">
+                                <div class="review_header-title">Mercedes W221 S-class</div>
+                                <div class="review_header_subtitle">для Владислава</div>
+                              </div>
+                              <div class="review_text">
+                                <div class="review_grade">
+                                  <div class="review_advantages">
+                                    <span>Плюсы:</span>
+                                    <ul class="review_advantages-list">
+                                      <li class="review_advantages-list-item">– Максимальная комплектация</li>
+                                      <li class="review_advantages-list-item">– Чистая история</li>
+                                      <li class="review_advantages-list-item">– Реальный пробег</li>
+                                      <li class="review_advantages-list-item">– Ровный по кузов</li>
+                                      <li class="review_advantages-list-item">– Электронно чист</li>
+                                    </ul>
+                                  </div>
+                                  <div class="review_advantages">
+                                    <span>Минусы:</span>
+                                    <ul class="review_advantages-list">
+                                      <li class="review_advantages-list-item">– Мёртвый задний Аккум</li>
+                                      <li class="review_advantages-list-item">– Несколько кнопок в салоне</li>
+                                      <li class="review_advantages-list-item">– Сопливит прокладка маслоохладителя</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="review_comment">
+                                  Подбор занял 4 дня, осмотрено 2 автомобиля в Смоленске и 5 в Москве. 
+                                  С нынешним рынком, цены на авто очень сильно «прыгают», поэтому Вы можете поехать 
+                                  покупать авто за 1 миллион, а его состояние будет, как у авто за 700 тысяч! И поверьте, 
+                                  так оно и есть зачастую. Влад подтвердит каждое мое слово, так как видел все это на практике. 
+                                  К слову, подобранный Мерседес максимально вписался в запрос клиента! Изначально цена на данный 
+                                  аппарат была 950К.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+                      <div class="swiper-slide">
+                        <div class="review-card">
+                          <span class="review-card-num">04</span>
+                          <div class="review_row">
+                            <img src="/img/review1.png" alt="Автомобиль">
+                            <div class="review_content">
+                              <div class="review_header">
+                                <div class="review_header-title">Mercedes W221 S-class</div>
+                                <div class="review_header_subtitle">для Владислава</div>
+                              </div>
+                              <div class="review_text">
+                                <div class="review_grade">
+                                  <div class="review_advantages">
+                                    <span>Плюсы:</span>
+                                    <ul class="review_advantages-list">
+                                      <li class="review_advantages-list-item">– Максимальная комплектация</li>
+                                      <li class="review_advantages-list-item">– Чистая история</li>
+                                      <li class="review_advantages-list-item">– Реальный пробег</li>
+                                      <li class="review_advantages-list-item">– Ровный по кузов</li>
+                                      <li class="review_advantages-list-item">– Электронно чист</li>
+                                    </ul>
+                                  </div>
+                                  <div class="review_advantages">
+                                    <span>Минусы:</span>
+                                    <ul class="review_advantages-list">
+                                      <li class="review_advantages-list-item">– Мёртвый задний Аккум</li>
+                                      <li class="review_advantages-list-item">– Несколько кнопок в салоне</li>
+                                      <li class="review_advantages-list-item">– Сопливит прокладка маслоохладителя</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="review_comment">
+                                  Подбор занял 4 дня, осмотрено 2 автомобиля в Смоленске и 5 в Москве. 
+                                  С нынешним рынком, цены на авто очень сильно «прыгают», поэтому Вы можете поехать 
+                                  покупать авто за 1 миллион, а его состояние будет, как у авто за 700 тысяч! И поверьте, 
+                                  так оно и есть зачастую. Влад подтвердит каждое мое слово, так как видел все это на практике. 
+                                  К слову, подобранный Мерседес максимально вписался в запрос клиента! Изначально цена на данный 
+                                  аппарат была 950К.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+                      <div class="swiper-slide">
+                        <div class="review-card">
+                          <span class="review-card-num">05</span>
+                          <div class="review_row">
+                            <img src="/img/review1.png" alt="Автомобиль">
+                            <div class="review_content">
+                              <div class="review_header">
+                                <div class="review_header-title">Mercedes W221 S-class</div>
+                                <div class="review_header_subtitle">для Владислава</div>
+                              </div>
+                              <div class="review_text">
+                                <div class="review_grade">
+                                  <div class="review_advantages">
+                                    <span>Плюсы:</span>
+                                    <ul class="review_advantages-list">
+                                      <li class="review_advantages-list-item">– Максимальная комплектация</li>
+                                      <li class="review_advantages-list-item">– Чистая история</li>
+                                      <li class="review_advantages-list-item">– Реальный пробег</li>
+                                      <li class="review_advantages-list-item">– Ровный по кузов</li>
+                                      <li class="review_advantages-list-item">– Электронно чист</li>
+                                    </ul>
+                                  </div>
+                                  <div class="review_advantages">
+                                    <span>Минусы:</span>
+                                    <ul class="review_advantages-list">
+                                      <li class="review_advantages-list-item">– Мёртвый задний Аккум</li>
+                                      <li class="review_advantages-list-item">– Несколько кнопок в салоне</li>
+                                      <li class="review_advantages-list-item">– Сопливит прокладка маслоохладителя</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="review_comment">
+                                  Подбор занял 4 дня, осмотрено 2 автомобиля в Смоленске и 5 в Москве. 
+                                  С нынешним рынком, цены на авто очень сильно «прыгают», поэтому Вы можете поехать 
+                                  покупать авто за 1 миллион, а его состояние будет, как у авто за 700 тысяч! И поверьте, 
+                                  так оно и есть зачастую. Влад подтвердит каждое мое слово, так как видел все это на практике. 
+                                  К слову, подобранный Мерседес максимально вписался в запрос клиента! Изначально цена на данный 
+                                  аппарат была 950К.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+
+                    </div>
+              
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev">
+                        <img src="/img/Кнопка левая.svg" alt="">
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="/img/Кнопка правая.svg" alt="">
+                    </div>
+
+                  </div>
+
+
+                  
+                </div>
+              </section>
+              
+
+              <section class="services">
+                <div class="container">
+                  <div class="section_header services_header">
+                    <h2 class="title services_title">
+                      Стоимость наших услуг
+                    </h2>
+                    <div class="section_header-line"></div>
+                  </div>
+
+                    <div class="services_row">
+                      <div class="services_cards">
+
+                          <div class="services_card">
+                            <img src="/img/Иконка.svg" alt="">
+                              <h3 class="services_card-title">Разовый осмотр</h3>
+                              <p class="services_card-price">80 <span>Br</span></p>
+                          </div>
+              
+
+                          <div class="services_card">
+                            <img src="/img/Иконка.svg" alt="">
+                              <h3 class="services_card-title">Эксперт на сутки</h3>
+                              <p class="services_card-price">350 <span>Br</span></p>
+                          </div>
+
+                          <div class="services_card">
+                            <img src="/img/Иконка.svg" alt="">
+                              <h3 class="services_card-title">Подбор под ключ</h3>
+                              <p class="services_card-price"><span class="range">от</span> 650 <span>Br</span></p>
+                          </div>
+
+                          <div class="services_card">
+                            <img src="/img/Иконка.svg" alt="">
+                              <h3 class="services_card-title">Подбор под ключ</h3>
+                              <p class="services_card-price"><span class="range">от</span> 1200 <span>₽</span></p>
+                          </div>
+
+
+                      </div>
+
+                      <div class="services_description">
+                        <div class="services_description-title">Описание услуг</div>
+                        <div class="services_description-columns">
+                          <ul class="services_description-list">
+                            <li class="services_description-list-item">Проконсультируем в выборе более надежного двигателя и коробки.</li>
+                            <li class="services_description-list-item">Выберем кристально чистый с юридической стороны авто.</li>
+                            <li class="services_description-list-item">Подскажем ликвидность модели, что бы не было вопросов в дальнейшем в продаже авто.</li>
+                            <li class="services_description-list-item">Найдем не участвовавший в ДТП автомобиль в идеальном техническом состоянии.</li>
+                            <li class="services_description-list-item">Сделаем для Вас полный отчёт (фото, видео), что бы вы полностью представляли состояние автомобиля.</li>
+                          </ul>
+  
+                            <ul class="services_description-list">
+                              <li class="services_description-list-item">Просмотрим автомобили на всех площадках оф. дилеров и Частных лиц.</li>
+                              <li class="services_description-list-item">У нас безукоризненная репутация, и мы очень ей дорожим.</li>
+                              <li class="services_description-list-item">Закреплённый за Вами сотрудник будет держать Вас в курсе событий 24часа (куда и что едет смотреть).</li>
+                              <li class="services_description-list-item">Мы поможем Вам найти Вашу МЕЧТУ.</li>
+                            </ul>
+                      
+                          </div>
+                        
+                      </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+                <section class="risks">
+                  <div class="container">
+                      <div class="section_header risks_header">
+                          <h2 class="title risks_title">При самостоятельной покупке автомобиля вы рискуете</h2>
+                          <div class="section_header-line"></div>
+                      </div>
+                      
+                      <div class="risks_row">
+                          <div class="accordion_items">
+                              <div class="accordion_item active">
+                                  <button class="accordion_item-header">
+                                      <span class="subtitle risks_subtitle">Здоровьем</span>
+                                  </button>
+                                  <div class="accordion_item-content">
+                                      <p>Автомобиль, побываший в серьезном ДТП, вас уже не спасет, потому что 
+                                        продавцы зачастую не восстанавливают подушки безопастности, а ставят муляж.</p>
+                                  </div>
+                              </div>
+
+                              <div class="accordion_item">
+                                  <button class="accordion_item-header">
+                                      <span class="subtitle risks_subtitle">Деньгами</span>
+                                  </button>
+                                  <div class="accordion_item-content">
+                                      <p>Это один из самых важных элементов подвески. 
+                                          Он напрямую влияют на управляемость автомобиля, на его устойчивость и плавность хода.</p>
+                                  </div>
+                              </div>
+
+                              <div class="accordion_item">
+                                  <button class="accordion_item-header">
+                                      <span class="subtitle risks_subtitle">Временем</span>
+                                  </button>
+                                  <div class="accordion_item-content">
+                                      <p>Проверяем состояние тормозных механизмов, дисков, колодок, антиблокировочной, антипробуксовочной систем и антизаноса.</p>
+                                  </div>
+                              </div>
+                              
+                              
+                          </div>
+                          <img src="/img/risks.png" alt="" class="risks_img">
+                      </div>
+                  </div>
+              </section>
+                
+
+
+              <section class="news">
+                <div class="container">
+                  <div class="section_header news_header">
+                    <h2 class="title news_title">
+                      Новости
+                    </h2>
+                    <div class="section_header-line"></div>
+                  </div>
+
+                      <div class="news_cards">
+                          <div class="news_card">
+                            <img src="/img/news_1.png" alt="">
+                              <h3 class="news_card-title">Подбор машины</h3>
+                              <p class="news_card-description">Разнообразный и богатый опыт постоянный количественный рост и сфера 
+                                нашей активности в значительной степени обуславливает создание дальнейших направлений развития.</p>
+                              <p class="news_card-date">21.10.21</p>
+                          </div>
+
+                          <div class="news_card">
+                            <img src="/img/news_2.png" alt="">
+                              <h3 class="news_card-title">Подбор машины</h3>
+                              <p class="news_card-description">Разнообразный и богатый опыт постоянный количественный рост и сфера 
+                                нашей активности в значительной степени обуславливает создание дальнейших направлений развития.</p>
+                              <p class="news_card-date">21.10.21</p>
+                          </div>
+
+                          <div class="news_card">
+                            <img src="/img/news_3.png" alt="">
+                              <h3 class="news_card-title">Подбор машины</h3>
+                              <p class="news_card-description">Разнообразный и богатый опыт постоянный количественный рост и сфера 
+                                нашей активности в значительной степени обуславливает создание дальнейших направлений развития.</p>
+                              <p class="news_card-date">21.10.21</p>
+                          </div>
+
+                          <div class="news_card">
+                            <img src="/img/news4.png" alt="">
+                              <h3 class="news_card-title">Подбор машины</h3>
+                              <p class="news_card-description">Разнообразный и богатый опыт постоянный количественный рост и сфера 
+                                нашей активности в значительной степени обуславливает создание дальнейших направлений развития.</p>
+                              <p class="news_card-date">21.10.21</p>
+                          </div>
+                      </div>
+
+                      <div class="swiper news_swiper">
+                        <div class="swiper-wrapper">
+
+                          <div class="swiper-slide">
+                            <div class="news_card">
+                              <img src="/img/news_1.png" alt="">
+                                <h3 class="news_card-title">Подбор машины</h3>
+                                <p class="news_card-description">Разнообразный и богатый опыт постоянный количественный рост и сфера 
+                                  нашей активности в значительной степени обуславливает создание дальнейших направлений развития.</p>
+                                <p class="news_card-date">21.10.21</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="news_card">
+                              <img src="/img/news_2.png" alt="">
+                                <h3 class="news_card-title">Подбор машины</h3>
+                                <p class="news_card-description">Разнообразный и богатый опыт постоянный количественный рост и сфера 
+                                  нашей активности в значительной степени обуславливает создание дальнейших направлений развития.</p>
+                                <p class="news_card-date">21.10.21</p>
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <div class="news_card">
+                              <img src="/img/news_3.png" alt="">
+                                <h3 class="news_card-title">Подбор машины</h3>
+                                <p class="news_card-description">Разнообразный и богатый опыт постоянный количественный рост и сфера 
+                                  нашей активности в значительной степени обуславливает создание дальнейших направлений развития.</p>
+                                <p class="news_card-date">21.10.21</p>
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <div class="news_card">
+                              <img src="/img/news4.png" alt="">
+                                <h3 class="news_card-title">Подбор машины</h3>
+                                <p class="news_card-description">Разнообразный и богатый опыт постоянный количественный рост и сфера 
+                                  нашей активности в значительной степени обуславливает создание дальнейших направлений развития.</p>
+                                <p class="news_card-date">21.10.21</p>
+                            </div>
+                          </div>
+    
+                        </div>
+                  
+                        <div class="swiper-pagination"></div>
+                      </div>
+                      
+
+                      
+                    
+                </div>
+            </section>
+
+
+
+
+            <section class="questions">
+              <div class="container">
+                <div class="questions_row">
+                  <h2 class="questions_title">Остались вопросы?</h2>
+                  <div class="questions_columns">
+                    <div class="questions_contact">
+                      <p>Позвоните прямо сейчас или оставьте сообщение:</p>
+                      
+                      <div class="questions_social">
+                          <a href="https://instagram.com" target="_blank">Instagram</a>
+                          <a href="https://telegram.org" target="_blank">Telegram</a>
+                      </div>
+                    </div.questions_contact>
+                  </div>
+                  <div class="base-form questions_contact-form">
+                    <form>
+                        <input type="text" placeholder="Имя" required>
+                        <input type="tel" placeholder="Телефон" required>
+                        <button type="submit" class="cta-button questions_cta-button">Оставить заявку</button>
+                    </form>
+                    <span>Нажимая на кнопку вы соглашаетесь с <u>Политикой конфидециальности</u></span>
+                </div>
+              </div>
+          </section>
+
+        </main>
+
+
+        <footer class="footer">
+          <div class="container">
+              <div class="footer_row">
+                  <div class="footer_legal">
+                      <p>Все права защищены © 2021</p>
+                      <a href="/privacy-policy">Политика конфиденциальности</a>
+                      <p>Разработал сайт @lip_ok</p>
+                  </div>
+
+                  <div class="footer_social">
+                    <a href="https://telegram.org" target="_blank"><img src="/img/Telegram_ic.svg" alt="Telegram_ic"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="/img/Instagram_ic.svg" alt="Instagram_ic"></a>
+                    <a href="https://www.viber.com" target="_blank"><img src="/img/Viber_ic.svg" alt="Viber"></a>
+                    <a href="https://www.whatsapp.com" target="_blank"><img src="/img/Watsapp_ic.svg" alt="WhatsApp"></a>
+                    <a href="https://vk.com" target="_blank"><img src="/img/Vk_ic.svg" alt="Вконтакте"></a>
+                </div>
+              </div>
+          </div>
+      </footer>
+    </div>
+
+
+    <script src="/main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>  
